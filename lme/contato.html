@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GEBrasil</title>
+    <link rel="shortcut icon" href="imagens/escudo.png"/>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+</head>
+<body>
+
+    <header class="cabecalho">
+        <div class="logo">
+            <a href="#inicio">
+                <img src="imagens/escudo.png" alt="Simbolo Xavante">
+            </a>
+        </div>
+    <nav class="menu">
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="torcida.html">Temporada atual</a></li>
+            <li><a href="estadio.html">Estádio</a></li>
+            <li><a href="curiosidades.html">Simbolos</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+    </header>
+
+    <div id="formulario">
+        <p>Deixe sua sugestão de melhoria no formulário abaixo.</p>
+    <form action="nao_tem-aiinda.php" method="post">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <label for="name">Nome:</label>
+            <input type="text" name="name" id="nameInpt" maxlength="40">
+            <br/>
+            <br/>
+            <label for="address">Endereço:</label>
+            <input type="text" name="address" id="addressInpt" maxlength="40">
+            <br/>
+            <br/>
+            <label for="phone">Fone:</label>
+            <input type="text" name="phone" id="phoneInpt" maxlength="40">
+            <br/>
+            <br/>
+        </fieldset>
+        <fieldset>
+            <legend>Dados da conta</legend>
+            <label for="email">Email:</label>
+            <input type="text" name="email" id="emailInpt">
+            <br/>
+            <br/>
+            <label for="password">Senha:</label>
+            <input type="password" name="password" id="passInpt">
+        </fieldset>
+        <fieldset>
+            <legend>Sexo:</legend>
+                <label for="sex">Masculino</label><input type="radio" name="sex" id="maleRadio" checked>
+                <label for="sex">Feminino</label><input type="radio" name="sex" id="femaleRadio">
+        </fieldset>
+        <fieldset>
+            <legend>Termos de uso</legend>
+            <label for="terms">Eu li e aceito os termos de uso.</label>
+            <input type="checkbox" name="terms" id="checkboxInpt">
+            <br/>
+            <label for="news">Eu aceito receber novidades por e-mail.</label>
+            <input type="checkbox" name="news" id="newsInpt" checked>
+        </fieldset>
+        <fieldset>
+            <legend>Biografia:</legend>
+            <textarea name="bio" id="" cols="50" rows="5" maxlength="100">Deixe sua sugestão de melhoria.</textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Plano de cadastro</legend>
+            <select name="plan" id="slctPlan">
+                <option value="0">Sócio Avante</option>
+                <option value="1">Sócio Paixão</option>
+                <option value="1">Sócio Coração</option>
+            </select>
+        </fieldset>
+        <br/>
+        <div class="enviar">
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+        </div>
+    </form>
+</section>
+</div>
+
+<p id="centra">
+    <a href="index.html"><button class="botao bt-vm">
+        Voltar
+    </button></a>
+</p>
+
+
+    <footer>
+        <div class="rodape">
+            <p>Rua João Pessoa, 694 – Bairro Centro</p>
+            <p>Fone/WhatsApp: (53) 99153 7087</p>
+                <p>
+                    Copyright &copy; 2021 by Robledo Pereira. All rights reserved.
+                </p>
+                <p><a href="#"></a><i class="fab fa-instagram"></i> <a href="https://twitter.com"></a><i class="fab fa-twitter"></i><a href="https://youtube.com"></a><i class="fab fa-youtube"></i></p>
+            
+        </div>
+    </footer>
+    
+    
+    
+    
+    
+    </body>
+    </html>

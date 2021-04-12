@@ -1,0 +1,206 @@
+* {
+    box-sizing: border-box;
+}
+/* pagina inicial*/
+body {
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    background-color: lightgray;
+}
+
+.cabecalho {
+    background: #333;
+    border-bottom: solid 8px rgb(212, 31, 31);
+    height: 80px;
+    box-sizing: content-box;
+}
+
+.logo {
+    display: inline-block;
+    height: 95px;
+    padding: 15px;
+}
+
+.logo img {
+    height: 100%;
+}
+
+.menu {
+    display: inline-block;
+    vertical-align: top;
+    height: 80px;
+    padding: 25px;
+    margin: 5px;
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.cabecalho a {
+    text-decoration: none;
+    color: #eee;
+    font-size: 1.6em;
+}
+
+.menu a {
+    padding: 15px;
+}
+
+
+.menu a:hover,
+.menu a.selected {
+    background-color: rgb(199, 99, 99);
+    color: #000;
+}
+
+.principal{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.img{
+    text-align: center;
+    padding: 30px 30px 0px 30px;
+}
+
+#titulo{
+    text-align: center;
+    padding: 30px;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.principal #informa{
+    text-align: justify;
+    font-size: 1.2rem;
+}
+/* rodapé */
+.rodape {
+    max-width: 1140px;
+    margin: 0 auto;
+    font-size: 1.2rem;
+}
+
+footer {
+    background-color: #333;
+    padding: 30px;
+    font-size: 80%;
+    position: relative;
+    margin-top: 50px;
+}
+
+footer p {
+    color: #888;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+/*pagina tabela*/
+
+
+table{
+    width: 100%;
+    margin-bottom : .5em;
+    table-layout: fixed;
+    text-align: center;
+    border: 2;
+  }
+  td, th {
+    padding: .2em;
+    margin: 0;
+    border: 5px solid rgb(175, 167, 167);
+    text-align: center;
+  }
+
+#verm{
+    background-color:red;
+}
+
+#verd{
+    background: green;
+}
+
+/*pagina secundaria*/
+
+.imagem-estadio{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.imagem-estadio img{
+    width: 40%;
+    height: 35%;
+    padding: 25px;
+    border: 1px solid;
+    
+}
+
+#texto{
+    padding: 15px;
+    font-weight: lighter;
+    text-align: justify;
+}
+#texto2{
+    padding: 10px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.botao {
+    border:1px solid black;
+    border-radius:4px;
+    cursor:pointer;
+    font-family: Arial;
+    font-weight:bold;
+    font-size:15px;
+    padding:12px 10px;
+    text-decoration:none;
+    text-align: center;
+    } 
+
+.bt-vm {
+    border-color:#f61f0e;
+    background:linear-gradient(to bottom, #fca8a1 5%, #f61f0e 100%);
+    box-shadow:inset 0px 1px 0px 0px #fff4f3;
+    color:#fff;
+    text-shadow:0px 1px 0px #528009; 
+
+    }
+
+.bt-vm:hover {
+    background:linear-gradient(to bottom, #f61f0e 5%, #fca8a1 100%);
+}
+/*quarta pagina, formulário */
+form{
+    padding: 0px 50px;
+    text-align: center;
+    display: inline-block;
+}
+
+#formulario{
+    text-align: center;
+}
+
+.enviar{
+    display: table; 
+    margin: 0 auto;
+}
+
+#formulario p{
+    font-size: 2rem;
+    padding-bottom: 0;
+}
+
+#centra{
+    text-align: center;
+}
